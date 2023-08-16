@@ -1,0 +1,378 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Quattrocento+Sans:wght@700&display=swap');
+
+:root{
+    --main-part-1:#ffffff;
+    --main-part-2:#3a454d;
+    --nav-color:#1d2126;
+    --hearder-part-1:#e1e6ea;
+    --hearder-part-2:#4e5a62;
+    --light-box:#23b7a4;
+    --meet-1:#e1e6ea;
+    --meet-2:#3a454d;
+
+}
+
+@media screen and (max-width:1500px){
+    .d-1 input{
+        max-width: 15rem ;
+        gap: 2rem;
+
+    }
+
+}
+
+@media screen and (max-width:1439px){
+    .d-1 input{
+        width: 13rem
+    };
+}
+
+@media screen and (max-width:1350px){
+    .container{
+        padding: 0 7rem;
+    }
+    .hook{
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+
+}
+@media screen and (max-width:1300px) {
+    .fea{
+        grid-template-columns: auto auto;
+    }
+    .slider-btn{
+        bottom: 5%;
+        right: 50%;
+    }
+}
+   
+    .hamburger{
+        display: block;
+    }
+    .menu{
+        display: none;
+    }
+    .menu-phone{
+        position: fixed;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        min-height: 20vh;
+        display: block;
+        z-index: 889;
+        background-color: var(--nav-color);
+        padding-top: 5rem ;
+        display: flex;
+        flex-direction: column;
+        transition: 0.4s;
+        
+     }
+     .menu-phone.is-active{
+        top: 0;
+     }
+     
+     .menu-phone a{
+        color: white;
+        text-transform: uppercase;
+        text-align: center;
+        width: 7rem ;
+        height: 3rem;
+        margin: 0.4rem auto;
+        padding:0.9rem; 
+        border: none;
+        outline: none;
+        font-size: 0.9rem;
+        font-weight: 500;
+        font-family: 'Open Sans', sans-serif;
+    
+     }
+     .menu-phone a:hover{
+        border: 2px solid white;
+        border-radius: 7px;
+        box-shadow: #ffffff;
+        outline: #ffffff;
+     }
+     .final-2   .fa-facebook,
+     .final-2   .fa-twitter,
+     .final-2    .fa-linkedin, 
+     .final-2     .fa-skype,
+     .final-2    .fa-behance{
+         margin-right: 1.4rem;
+             font-size: 1.2rem;
+         cursor: pointer;
+         color: white;
+       }
+
+@media screen and (max-width:1215px){
+    .d-1 input{
+        width: 11rem
+    };
+}
+
+@media screen and (max-width:1067px){
+    form{
+        padding: 1rem 1.5rem;
+        bottom: 3%;
+    }
+}
+
+@media screen and (max-width:1000px){
+    .final-2   .fa-facebook,
+     .final-2   .fa-twitter,
+     .final-2    .fa-linkedin, 
+     .final-2     .fa-skype,
+     .final-2    .fa-behance{
+         margin-right: 0.5rem;
+             font-size: 1.2rem;
+         cursor: pointer;
+         color: white;
+       }
+}
+
+
+
+@media screen and (max-width:1180px){
+    .card{
+        height: 60vh;
+    }
+    
+    
+    .meta{
+        gap:0.4rem;
+        display: flex;
+        flex-direction: column;
+    }
+    .container{
+        padding: 0 4rem;
+    }   
+}
+
+@media screen and (max-width:1075px){}
+.hook{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+@media screen and (max-width:1070px){
+    form{
+        padding: 1rem 1.5rem;
+    }
+}
+
+@media screen and (max-width:948px){
+    .d-1 input{
+        width: 9rem
+    };
+
+}
+
+
+@media screen and (max-width:900px){
+    .data-2{
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+    .fea{
+        grid-template-columns: auto;
+        text-align: center;
+    }
+    .post h5{
+        width: 100%;
+    }
+    .post p{
+        width: 60%;
+        margin: auto;
+        margin-bottom: 2rem;
+    }
+   
+   
+    .kun .boc{
+        padding: 0.7rem 0.2rem;
+        font-size:1.2rem;
+        width: 7rem;
+        height: 2.5rem;
+        text-align: center;
+        text-decoration: none;
+    }
+    .gallery{
+        display: grid;
+        grid-template-columns: auto auto ;
+    }
+    .show{
+        width: 12rem;
+    }
+}
+@media screen and (max-width:874px){
+    .d-1 input{
+        width: 8rem
+    };
+}
+
+
+
+@media screen and (max-width:870px){
+  .hook{
+    display: flex;
+    flex-direction: column;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+   
+  }
+ 
+  .final h4{
+    color: white;
+    font-family: 'Quattrocento Sans', sans-serif;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+
+}
+.final-2   .fa-facebook,
+.final-2   .fa-twitter,
+.final-2    .fa-linkedin, 
+.final-2     .fa-skype,
+.final-2    .fa-behance{
+    margin-right: 1.5rem;
+        font-size: 1.2rem;
+    cursor: pointer;
+    color: white;
+  } 
+}
+
+@media screen and (max-width:830px){
+    .last{
+        grid-template-columns: auto auto;
+    }
+    .d-1 input{
+        width: 12rem;
+        margin-right: 1rem;
+    }
+    form{
+        position: relative;
+    }
+}
+
+@media screen and (max-width:800px){
+    nav{
+        padding: 0 5rem;
+    }
+    .hamburger{
+        left: 5%;
+    }
+    
+}
+
+@media screen and (max-width:757px){
+    .last{
+        grid-template-columns: auto;
+    }
+    .foot-1{
+        margin-bottom: 2rem;
+    }
+}
+
+@media screen and (max-width:700px){
+
+    .content-1{
+        display: flex;
+        flex-direction: column;
+    }
+    .right{
+        margin-top: 4rem;
+    }
+    .gallery{
+        display: grid;
+        grid-template-columns: auto ;
+        
+    }
+    .b1{
+        margin-bottom: 2rem;
+    }
+    .service{
+        grid-template-columns: auto auto;
+    }
+    
+}
+
+@media screen and (max-width:650px){
+    .container{
+        padding: 0 4rem;
+    }
+    .hook{
+        padding-top: 2rem;
+    padding-bottom: 2rem;
+    }
+}
+
+@media screen and (max-width:566px){
+    form{
+        padding: 0;
+    }
+    .data-2{
+        display: grid;
+        grid-template-columns: auto;
+    }
+    
+}
+@media screen and (max-width:500px){
+    .container{
+        padding: 0 2rem;
+    }
+    .m-1 input{
+        width: auto;
+    }
+    .slider-btn{
+        bottom: 5%;
+        right: 50%;
+    }
+}
+@media screen and (max-width:534px){
+    .container{
+        padding: 0 3rem;
+    }
+    .post{
+        margin-bottom: 2rem;  
+    }
+    .hook{
+        padding-top: 2rem;
+    padding-bottom: 2rem;
+    }
+}
+
+@media screen and (max-width:524px){
+    .foot-1{
+        width: 90%;
+        margin: 2rem auto;
+    }
+    form{
+        width: 90%;
+        margin: auto;
+    }
+    .inone{
+        grid-template-columns: auto;
+       
+    }
+    .d-1{
+        margin-bottom: 2rem;
+    } 
+    
+}
+
+
+@media screen and (max-width:450px){
+    nav{
+        padding: 0 3rem;
+    }
+    .hamburger{
+        left: 5%;
+    }
+    .service{
+        grid-template-columns: auto ;
+    }
+    .post img{
+        margin: auto;
+        width: 80%;
+    }
+
+}
+
